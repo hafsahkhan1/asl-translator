@@ -1,1 +1,18 @@
 .venv
+__pycache__/
+
+# MediaPipe model (downloaded automatically on first run)
+hand_landmarker.task
+
+# Data and outputs: too big for GitHub, share through Google Drive
+*.csv
+*_missed.txt
+crops/
+test_data/
+asl_alphabet_*/
+
+# Trained models: share through Google Drive
+models/
+
+# Evaluation outputs (copy the charts you want into the report)
+results/
